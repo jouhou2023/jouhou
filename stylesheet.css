@@ -26,8 +26,9 @@ header {
     grid-row-start: header;
     grid-row-end: main;
     text-align: center;
-    background: #2da9af;
-    color: white;
+    background: white;
+    color: #004896;
+    border: double 10px #004896;
 }
 
 /* メイン */
@@ -57,7 +58,7 @@ img {
 
 .contents p {
     padding-left: 5px;
-    border-left: solid 10px #2da9af;
+    border-left: solid 10px #004896;
 }
 
 .link {
@@ -67,7 +68,7 @@ img {
 
 .camera {
     border-radius: 5px;
-    background-color: #2da9af;
+    background-color: #004896;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -80,7 +81,7 @@ footer {
     grid-row-start: footer;
     grid-row-end: bottom;
     text-align: center;
-    background: #64b6ba;
-    color: white;
-    padding: 10px 0;
+    height: 40px;
+    background: rgb(224, 224, 224);
+    color: rgb(67, 67, 67);
 }
